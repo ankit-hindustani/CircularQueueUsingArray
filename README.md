@@ -3,8 +3,8 @@
 # CircularQueueUsingArray
 Full implementation of Circular queue using array.
 
-1. enqueue
-if (rear+1)%max==front,queue is full, overflow;
+1. enqueue\
+if (rear+1)%max==front,queue is full, overflow;\
 if (rear != max-1),means rear pointer is not at last index, increment rear by one.;
 if (front != 0) && (rear=max-1), means rear pointer at last index and first index is empty, rotate rear to 0 index.;
 
